@@ -1,0 +1,43 @@
+/* About.module.css */
+
+/* Overall section styles */
+.about {
+    background-color: #edf4f7; /* Light background color for the section */
+}
+
+/* Text styles for the heading */
+.heading {
+    font-size: 2rem; 
+    color: #333; 
+}
+
+.uppercase {
+    text-transform: uppercase; /* Ensure text is uppercase */
+}
+
+/* Custom styles for the image container */
+.shadowXL :hover{
+    transition: transform 0.3s ease; 
+    
+    
+}
+
+.shadowXL:hover {
+    transform: scale(1.05)
+  
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .about {
+        padding: 1rem; /* Add padding for smaller screens */
+    }
+
+    .heading {
+        font-size: 1.5rem; /* Smaller font size for headings */
+    }
+
+    .paragraph {
+        font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+}
